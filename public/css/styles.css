@@ -194,8 +194,8 @@ a:hover {
     z-index: 9999 !important;
 }
 
-.form_control {
-    max-width: 200px;
+.form-control {
+    max-width: 200px !important;
 }
 
 @media (max-width: 800px) {
