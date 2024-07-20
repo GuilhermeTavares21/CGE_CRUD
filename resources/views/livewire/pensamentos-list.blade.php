@@ -19,7 +19,7 @@
         <a class="add_nota" href="#" data-toggle="modal" data-target="#createModal"><p id="plus">+</p><p>Adicionar nota</p></a>
     </div>
 
-    <input type="text" wire:model.debounce.300ms="search" id="filtrar" class="form-control" placeholder="Filtrar...">
+    <input type="text" wire:model.debounce.300ms="search" id="filtrar" placeholder="Filtrar...">
 
     @if (session()->has('success'))
         <div id="successPopup" class="successPopup" style="display: none;">
