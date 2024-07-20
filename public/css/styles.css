@@ -169,14 +169,14 @@ a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
-.filtrar {
+#filtrar {
     max-width: 200px;
 }
 .loading {
     position: relative;
 }
 
-.transparente {
+#transparente {
     width: 100vw;
     height: 100vh;
     opacity: 0.6;
