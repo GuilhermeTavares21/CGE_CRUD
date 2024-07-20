@@ -8,3 +8,7 @@ Route::get('/', function () {
 });
 
 Route::resource('pensamentos', PensamentoController::class);
+
+Route::fallback(function () {
+    return redirect('/pensamentos');
+});
