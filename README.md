@@ -1,6 +1,6 @@
 # Projeto CRUD com Laravel 
 
-Este é um aplicação Laravel para você anotar tudo o que estiver pensando. Anote seus pensamentos, crie histórias inspiradoras e emocionantes!
+Esta é uma aplicação Laravel para você anotar tudo o que estiver pensando. Anote seus pensamentos, crie histórias inspiradoras e emocionantes!
 
 A aplicação está disponível em: https://guilhermeprates.com.br/pensamentos
 
