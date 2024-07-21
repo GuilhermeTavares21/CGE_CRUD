@@ -12,7 +12,7 @@
                     <p>{{ $pensamentos->total() }} {{ $pensamentos->total() > 1 ? 'notas' : 'nota' }} ao total</p>
                 </div>
             @else
-                <p>Você não possui nenhuma nota cadastrada <i class="fa-solid fa-face-sad-tear"></i></p>
+                <p class="not_found">Você não possui nenhuma nota cadastrada <i class="fa-solid fa-face-sad-tear"></i></p>
             @endif
         </div>
 
