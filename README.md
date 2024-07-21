@@ -2,6 +2,8 @@
 
 Este é um aplicação Laravel para você anotar tudo o que estiver pensando. Anote seus pensamentos, crie histórias inspiradoras e emocionantes!
 
+A aplicação está disponível em: https://guilhermeprates.com.br/pensamentos
+
 ## Pré-requisitos
 
 Certifique-se de ter os seguintes pré-requisitos instalados em sua máquina:

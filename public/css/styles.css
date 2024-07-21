@@ -199,8 +199,8 @@ a:hover {
         flex-direction: column;
         gap: 8%;
     }
-    .not_found {
-        font-size: 0.9rem;
+    .index_header .not_found {
+        font-size: 0.9rem !important;
     }
     .add_nota {
         width: 50%;
