@@ -1,6 +1,6 @@
 <div wire:loading.class="loading" wire:target="search">
     <div class="spinner" style="display: none;" wire:loading.style="display: block;">
-        <div id="transparente">
+        <div id="transparente" style="position:fixed; left:50%; transform: translateX(-50%);">
             <img src="{{ asset('img/loading.svg') }}" alt="Carregando...">
         </div>
     </div>
@@ -19,7 +19,7 @@
         <a class="add_nota" href="#" data-toggle="modal" data-target="#createModal"><p id="plus">+</p><p>Adicionar nota</p></a>
     </div>
 
-    <input type="text" wire:model.debounce.300ms="search" id="filtrar" placeholder="Filtrar...">
+    <input style="padding: .375rem .75rem; border: 1px solid #ced4da; border-radius: .25rem; height: calc(1.5em + .75rem + 2px); background-color: #fff; color: #495057;" type="text" wire:model.debounce.300ms="search" id="filtrar" placeholder="Filtrar...">
 
     @if (session()->has('success'))
         <div id="successPopup" class="successPopup" style="display: none;">

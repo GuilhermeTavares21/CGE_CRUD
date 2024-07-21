@@ -188,25 +188,6 @@ a:hover {
 .loading {
     position: relative;
 }
-
-#transparente {
-    width: 100vw !important;
-    height: 100vh !important;
-    opacity: 0.6 !important;
-    z-index: 10 !important;
-    background-color: gray !important;
-    position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-}
-.transparente img {
-    position: relative !important;
-    top: 50% !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%) !important;
-    z-index: 9999 !important;
-}
-
 .form-control {
     max-width: 200px !important;
 }
