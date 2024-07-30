@@ -2,7 +2,6 @@
 
 Esta é uma aplicação Laravel para você anotar tudo o que estiver pensando. Anote seus pensamentos, crie histórias inspiradoras e emocionantes!
 
-A aplicação está disponível em: https://guilhermeprates.com.br/pensamentos
 
 ## Pré-requisitos
 
@@ -34,11 +33,11 @@ npm install
 Crie um arquivo .env na raiz do projeto e copie o conteúdo do arquivo .env.example para ele. Atualize as informações do banco de dados no arquivo .env:
 
 ```env
-DB_CONNECTION=mysql
-DB_HOST=srv1577.hstgr.io
-DB_PORT=3306
-DB_DATABASE=u114805268_cge_crud
-DB_USERNAME=u114805268_root
+DB_CONNECTION=
+DB_HOST=
+DB_PORT=
+DB_DATABASE=
+DB_USERNAME=
 DB_PASSWORD=
 ```
 
